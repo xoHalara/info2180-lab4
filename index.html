@@ -9,15 +9,11 @@
 <body>
   <div class="container">
     <h1>Avengers Character Search</h1>
-    <form id="search-form">
-      <input 
-        type="text" 
-        id="search-input" 
-        placeholder="e.g. Captain America or Steve Rogers" 
-        name="query">
-      <button type="submit" id="search-button">Search</button>
-    </form>
-    <h2>RESULT</h2>
+    <div class="search">
+      <label for="search">Search by Full Name or Alias</label>
+      <input type="text" id="search" placeholder="Enter Superhero Name or Alias">
+      <button id="search-btn">Search</button>
+    </div>
     <div id="result"></div>
   </div>
   <script src="app.js"></script>
